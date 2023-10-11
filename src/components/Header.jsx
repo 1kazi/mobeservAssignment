@@ -1,5 +1,5 @@
-import { PiShoppingCartSimpleThin } from "react-icons/pi";
-import { FiBell } from "react-icons/fi";
+// import { PiShoppingCartSimpleThin } from "react-icons/pi";
+// import { FiBell } from "react-icons/fi";
 import { Dropdown } from "react-bootstrap";
 import { useState } from "react";
 
@@ -39,9 +39,9 @@ export default function Header({ serchData }) {
           </div>
         </div>
         <div className="d-flex right-section  d-flex align-items-center justify-content-center gap-3 w-auto">
-          <PiShoppingCartSimpleThin />
+          {/* <PiShoppingCartSimpleThin /> */}
           <p className="m-0">|</p>
-          <FiBell />
+          {/* <FiBell /> */}
           <p className="m-0">|</p>
           <h6 className=" white-spane-no mb-0">Michel Clerk</h6>
         </div>
