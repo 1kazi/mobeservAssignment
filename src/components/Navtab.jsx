@@ -130,11 +130,17 @@ export default function Navtab({ certificates, testimonial, search = "" }) {
                               key={i}
                               className=" card-box-frame d-flex  align-items-center"
                             >
-                              <img
+                              <object
                                 className="img-section"
-                                src={item?.user?.avatar}
-                                alt=""
-                              />
+                                data={item?.user?.avatar}
+                                type="image/png"
+                              >
+                                <img
+                                  className="img-section"
+                                  src={defaultImage}
+                                  alt="Showin default iamge"
+                                />
+                              </object>
                               <div className="description-box w-100">
                                 <p className="fx-16 w-100  fw-normal mb-2 ellipsis-3">
                                   {item?.text}
@@ -179,11 +185,17 @@ export default function Navtab({ certificates, testimonial, search = "" }) {
                             key={i}
                             className="card-box-frame d-flex align-items-center"
                           >
-                            <img
+                            <object
                               className="img-section"
-                              src={item?.user?.avatar}
-                              alt=""
-                            />
+                              data={item?.user?.avatar}
+                              type="image/png"
+                            >
+                              <img
+                                className="img-section"
+                                src={defaultImage}
+                                alt="Showin default iamge"
+                              />
+                            </object>
                             <div className="description-box">
                               <p className="fx-16 w-100 fw-normal mb-2 ellipsis-3">
                                 {item?.text}
